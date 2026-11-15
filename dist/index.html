@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230071e3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z'/><polyline points='14 2 14 8 20 8'/><path d='M10 13l2 2 4-4'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaperExplain AI — Your Personal Document Understanding Assistant</title>
+    
+    <!-- Preload SF Pro Display Fonts -->
+    <link rel="preload" href="https://media.brand.dev/fonts/53aeca952cf8dfa4e64e54956d4a8b6fcf75a9b75a4c41b2fa24de75334761a4.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="https://media.brand.dev/fonts/7b0041c48ba67087fcf5f6e8ec8d24e95db06cae9bf78c45b4542984bcb7208c.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- File Protocol Fallback and Auto-Redirect -->
+    <script>
+      (function() {
+        if (window.location.protocol === 'file:') {
+          setTimeout(function() {
+            window.location.href = 'http://localhost:5173/';
+          }, 300);
+        }
+      })();
+    </script>
+    <style>
+      #file-protocol-warning {
+        display: none;
+        font-family: 'SF Pro Display', -apple-system, sans-serif;
+        text-align: center;
+        padding: 60px 24px;
+        max-width: 620px;
+        margin: 60px auto;
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        border-radius: 16px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-B11IPJCE.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Bi5asNFz.css">
+  </head>
+  <body class="bg-[#ffffff] text-[#1d1d1f] antialiased selection:bg-[#0071e3]/10 selection:text-[#0071e3] min-h-screen">
+    
+    <div id="file-protocol-warning">
+      <div style="width: 56px; height: 56px; border-radius: 14px; background: #0071e3; color: white; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 26px;">
+        📄
+      </div>
+      <h1 style="font-size: 28px; font-weight: 700; color: #1d1d1f; margin-bottom: 12px; letter-spacing: -0.5px;">
+        Launch PaperExplain AI
+      </h1>
+      <p style="font-size: 16px; color: #86868b; line-height: 1.5; margin-bottom: 28px;">
+        To experience PaperExplain AI with full AI processing and interactive document preview, please open the application via the local server.
+      </p>
+      <a href="http://localhost:5173/" style="display: inline-block; background-color: #0071e3; color: #ffffff; border-radius: 980px; padding: 12px 28px; font-size: 17px; font-weight: 500; text-decoration: none; box-shadow: 0 4px 14px rgba(0,113,227,0.35);">
+        Open in Local Server (http://localhost:5173) &rarr;
+      </a>
+      <div style="margin-top: 24px; font-size: 13px; color: #a1a1a6;">
+        Running on Vite v6 • Port 5173
+      </div>
+    </div>
+
+    <script>
+      if (window.location.protocol === 'file:') {
+        document.getElementById('file-protocol-warning').style.display = 'block';
+      }
+    </script>
+
+    <div id="root"></div>
+  </body>
+</html>
